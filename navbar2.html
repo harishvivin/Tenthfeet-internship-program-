@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive navbar</title>
+</head>
+<style>
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	min-height:100vh;
+	background-image:url(mainbg.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+nav{
+	background-color:rgba(255,255,255,0.2);
+	box-shadow:3ps 3px 5px rgbs(0,0,0,0.1);
+	backdrop-filter:blur(5px);
+}
+
+nav ul{
+	width:100%;
+	list-style:none;
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+}
+
+nav li{ 
+	height:50px;
+}
+
+nav a{
+	height:100%;
+	padding:0 30px;
+	text-decoration:none;
+	display:flex;
+	align-items:center;
+	color:white;
+}
+
+nav a:hover{
+	background-color:#f0f0f0;
+	
+	color:black;
+}
+
+nav li:first-child{
+	margin-right:auto;
+}
+</style>
+
+<body>
+	<nav>
+		<ul>
+		<li><a href="./index.html">Go back</a></li>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Contacts</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Blogs</a></li>
+		<li><a href="#">Login</a></li>
+		<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+	</ul>
+	</nav>
+
+</body>
+
+
+
+</html>
