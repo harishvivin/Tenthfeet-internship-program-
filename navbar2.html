@@ -20,7 +20,12 @@ body{
 nav{
 	background-color:rgba(255,255,255,0.2);
 	box-shadow:3ps 3px 5px rgbs(0,0,0,0.1);
-	backdrop-filter:blur(5px);
+	backdrop-filter:blur(10px);
+	overflow:hidden;
+	position:fixed;
+	top:0;
+	width:100%;
+	
 }
 
 nav ul{
@@ -29,6 +34,7 @@ nav ul{
 	display:flex;
 	justify-content:flex-end;
 	align-items:center;
+	
 }
 
 nav li{ 
@@ -45,20 +51,61 @@ nav a{
 }
 
 nav a:hover{
-	background-color:#f0f0f0;
+    background-color:rgba(255,255,255,0.2);
+	box-shadow:3ps 3px 5px rgbs(0,0,0,0.1)
+	backdrop-filter:blur(1px);
 	
-	color:black;
 }
 
 nav li:first-child{
 	margin-right:auto;
 }
+
+#title{
+	margin-right:250px;
+	font-size:25px;
+	color:solid white;
+}
+
+
+para1{
+	width:800px;
+	max-width:90%;
+}
+
+.container{
+	background-color:rgba(255,255,255,0.2);
+	box-shadow:3px 3px 5px rgbs(0,0,0,0.1);
+	backdrop-filter:blur(3px);
+	overflow:hidden;
+	width:85%;
+	display:flex;
+	flex-wrap:wrap;
+	margin:100px;
+	color:white;
+	border-radius:15px;
+}
+
+.box{
+	margin-top:40px;
+	margin-bottom:40px;
+	margin-right:20px;
+	margin-left:20px;
+	
+}
+
+.form{
+	text-align:center;
+	color:white;
+}
+
 </style>
 
 <body>
 	<nav>
 		<ul>
 		<li><a href="./index.html">Go back</a></li>
+		<li><a id="title" href="#">MODERN FOREST</a></li>
 		<li><a href="#">Home</a></li>
 		<li><a href="#">Contacts</a></li>
 		<li><a href="#">About</a></li>
@@ -67,9 +114,47 @@ nav li:first-child{
 		<li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
 	</ul>
 	</nav>
+	
+	<div class="container">
+		<div class="box">A computer is an electronic device that was discovered by Charles Babbage. He is known as the father of computers. There are various parts to a computer. The four major parts of a computer are the mouse, keyboard, monitor and CPU. With computers, we can send and receive messages through emails and save important information. It helps to store and modify data. Nowadays, computers are used in schools, banks, offices, etc., and it is now impossible to survive without computers. In order to run any organisation, institution, or any other office, a computer is a must. Computers have made life easier for people of different age groups.	</div>
+	</div>
+	
+	<div class="container">
+		<div class="box">Charles Babbage is the father of computers. It is an electronic gadget that is used to store and process data. The features which are found in a computer are a notepad, calculator, paint tool, etc. A computer can be used to store, receive, or send information via different mediums. A computer is a reliable gadget that can store all your private information with security protection. In order to operate a computer, we need an operating system and someone to operate it. If you know how to operate, then it is easier for you to handle any kind of job. If you are not well aware of using a computer, then you will have to be dependent on someone for your work. There is no job that is impossible with the computer. Every day, scientists are working really hard to find new innovations to improve the performance and quality of computers. Therefore, in today’s changing world, it is necessary for every individual to learn the basics of computers at least.	</div>
+	</div>
+	
+	<div class="container">
+		<div class="box">In the 21st century, it is impossible to imagine a life without a computer and internet connection. The invention of computers has brought a lot of changes in people’s lives and has helped in fulfilling people’s dreams. A computer is used in various organisations, schools, institutions, offices, etc. It can be used to store important information with high protection and can also be used to send and receive messages, make calculations, develop software, send and receive emails, etc. The major parts of a computer are the mouse, keyboard, monitor, and CPU, but these gadgets have been improvised with a lot of modifications.	</div>
+	</div>
+	
+	<div class="container">
+		<div class="box">Nowadays, we have become very dependent on technology; therefore, it is difficult to imagine our lives without a computer. To learn any professional course, you must be well-versed in computer usage. Whether a school student or an employee, you must at least know the basics of computers. Along with the increasing usage of computers, they have been updated in many ways, like making it lighter to carry in a bag, making processors faster, etc. With the increasing usage and demands of people, computers have been developed and have made life easier. Starting from simple calculations to weather forecasting, computers have become a part of our lives.</div>
+	</div>
+	
+	<div class="container">
+		<div class="box">A computer is one of the best man-made creations that has been developed to help people in various sectors. It has become such an important part of our lives that we find computers everywhere we go. Starting from our school life till our old age, we have many uses for computers. We have become so much dependent on computers that we are using computers for almost everything we do. It is a device that can store an enormous amount of data in it. We are so much dependent on computers that we do not want to put any pressure on ourselves. We blindly store all our data in a computer with a safety passcode. A computer takes up the responsibility and processes the output in no time, hence making our life easier. It collects the data, processes it and then provides the final result to us within a very short time. People in this day and age have become so reliant on computers that they cannot imagine life without them. Computers are significant because of their widespread use, productivity, and openness. Computers are the most needed innovation due to their incredible benefits. Computers are used in every field, like the education sector, hospitals, hotels, etc. If you go for a CT Scan, X-ray, or ECG, you will need a computer to check your body. In case you want to submit a project, you will need a computer. It has become a part of our lifestyle.
+                        The computer is a remarkable piece of science that man has created to help humanity. Computers are in charge of today’s reality, and they have unquestionably altered people’s lifestyles and the condition of developing countries.</div>
+	</div>
+	
+    <div class="form">
+		<form>
+		<label>Name:</label>
+		<input type="name" placeholder="your name" /><br>
+		
+		<label>Email:</label>
+		<input type="name" placeholder="your last name"><br><br>
+		
+		<label>Phone Number:</label>
+		<input type="text" /><br><br>
+		
+		<label>Your Comments:</label>
+		<input type="number" /><br><br>
+		
+		<input type="submit" />
+		<input type="reset" value="reset" />
+		</form>
+	</div>
 
 </body>
-
-
 
 </html>
